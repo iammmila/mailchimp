@@ -1,0 +1,30 @@
+{
+  "name": "mailchimp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev":"nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammmila/mailchimp.git"
+  },
+  "keywords": [],
+  "author": "Malahat Ibrahimova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iammmila/mailchimp/issues"
+  },
+  "homepage": "https://github.com/iammmila/mailchimp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
